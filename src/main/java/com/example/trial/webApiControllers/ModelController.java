@@ -1,8 +1,6 @@
 package com.example.trial.webApiControllers;
 
-import com.example.trial.busines.BrandServiceImpl;
-import com.example.trial.busines.ModelServiceImpl;
-import com.example.trial.common.ModelMapperServiceImpl;
+import com.example.trial.busines.concretes.ModelServiceImpl;
 import com.example.trial.requests.CreateModelRequest;
 import com.example.trial.response.GetAllModelResponse;
 import lombok.AllArgsConstructor;

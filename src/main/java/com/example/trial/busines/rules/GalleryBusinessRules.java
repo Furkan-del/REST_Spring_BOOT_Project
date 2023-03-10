@@ -23,5 +23,10 @@ public class GalleryBusinessRules {
         }
 
     }
+    public void isDistanceValid(Integer distance){
+        if(distance<=0){
+            throw  new UnLogicException("Distance is invalid");
+        }
+    }
 
 }

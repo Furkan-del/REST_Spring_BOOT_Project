@@ -1,6 +1,6 @@
 package com.example.trial.webApiControllers;
 
-import com.example.trial.busines.BrandServiceImpl;
+import com.example.trial.busines.concretes.BrandServiceImpl;
 import com.example.trial.requests.CreateBrandRequest;
 import com.example.trial.requests.UpdateBrandRequest;
 import com.example.trial.response.GetAllBrandsResponse;

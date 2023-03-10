@@ -5,8 +5,9 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class CreateGalleryRequest {
+public class CreateMechanicerRequest {
+
     private String name;
-    private Integer totalAmount;
-    private Integer distance;
+    private Integer price;
+    private String carPlate;
 }

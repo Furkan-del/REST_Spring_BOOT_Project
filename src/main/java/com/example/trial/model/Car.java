@@ -14,11 +14,11 @@ import javax.persistence.*;
 public class Car {
 
     @Column(name = "id")
-   @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Id
     private Long id;
 
-    @Column(name = "plate",unique = true)
+    @Column(name = "plate", unique = true)
     private String plate;
     @Column(name = "daily_price")
     private Integer dailyPrice;
@@ -30,8 +30,9 @@ public class Car {
     @ManyToOne
     @JoinColumn(name = "model_id")
     private Model model;
+
     @ManyToOne
-    @JoinColumn(name = "galery_id")
-    private Gallery gallery;
+    @JoinColumn(name = "mechanicer_id")
+    private Mechanicer mechanicerr;
 
 }

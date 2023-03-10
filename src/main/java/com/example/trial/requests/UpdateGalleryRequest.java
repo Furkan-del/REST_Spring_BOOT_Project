@@ -3,10 +3,11 @@ package com.example.trial.requests;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-@Data
 @AllArgsConstructor
-public class CreateGalleryRequest {
+@Data
+public class UpdateGalleryRequest {
+    private Long id;
     private String name;
-    private Integer totalAmount;
     private Integer distance;
+    private Integer totalAmount;
 }

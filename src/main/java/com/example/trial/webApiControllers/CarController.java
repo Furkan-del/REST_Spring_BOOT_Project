@@ -1,6 +1,6 @@
 package com.example.trial.webApiControllers;
 
-import com.example.trial.busines.CarServiceImpl;
+import com.example.trial.busines.concretes.CarServiceImpl;
 import com.example.trial.requests.CreateCarRequest;
 import com.example.trial.response.GetAllCarsResponse;
 import lombok.AllArgsConstructor;

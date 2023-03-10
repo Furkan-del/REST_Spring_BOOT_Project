@@ -1,4 +1,4 @@
-package com.example.trial.busines;
+package com.example.trial.busines.abstracts;
 
 
 import com.example.trial.exception.ResourceNotFoundException;

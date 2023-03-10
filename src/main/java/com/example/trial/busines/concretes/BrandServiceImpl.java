@@ -1,4 +1,5 @@
-package com.example.trial.busines;
+package com.example.trial.busines.concretes;
+import com.example.trial.busines.abstracts.BrandService;
 import com.example.trial.busines.rules.BrandBusinessRules;
 import com.example.trial.common.ModelMapperServiceImpl;
 import com.example.trial.dataAccess.BrandRepository;

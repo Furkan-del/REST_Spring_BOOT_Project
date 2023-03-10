@@ -22,6 +22,7 @@ public class Gallery {
     @Column(name = "totalAmount")
     private Integer totalAmount;
 
-    @OneToMany(mappedBy = "gallery")
-    private List<Car> car;
+    @ManyToOne
+    @JoinColumn(name = "mechanicer_id")
+    private Mechanicer mechanicer;
 }

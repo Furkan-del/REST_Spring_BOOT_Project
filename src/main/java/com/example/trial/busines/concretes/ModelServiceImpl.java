@@ -1,5 +1,6 @@
-package com.example.trial.busines;
+package com.example.trial.busines.concretes;
 
+import com.example.trial.busines.abstracts.ModelService;
 import com.example.trial.busines.rules.ModelBusinessRules;
 import com.example.trial.common.ModelMapperServiceImpl;
 import com.example.trial.dataAccess.ModelRepository;
